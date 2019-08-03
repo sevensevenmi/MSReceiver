@@ -1,4 +1,4 @@
-Êý×Ö¼¤»î¿Ø¼þ, .net4.6¿â,´ø¹ý³ÌÊä³ö¡£Á½¸öº¯Êý.
+æ•°å­—æ¿€æ´»æŽ§ä»¶, .net4.6åº“,å¸¦è¿‡ç¨‹è¾“å‡ºã€‚ä¸¤ä¸ªå‡½æ•°.
 Sub DigitalActivat()
 Function GetResult(ByRef szRes As String) As Integer
 
@@ -15,7 +15,7 @@ vb.net:
             flags = func.GetResult(szRes)
             If szRes <> OldResult Then
                 OldResult = szRes
-                Console.WriteLine(szRes) 'Êä³ö¼¤»î¹ý³Ì
+                Console.WriteLine(szRes) 'è¾“å‡ºæ¿€æ´»è¿‡ç¨‹
             End If
             Application.DoEvents()
         Loop
