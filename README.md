@@ -11,11 +11,17 @@ V3.1 新增备份CID及激活信息 新重重建tokens 新增逐条还原激活�
 Activation.dll接口说明
 
 密钥安装及激活控件.也可用于测密钥.自动判断系统类型，自适应密钥类型.
+
 szKey:密钥输入
+
 szErrorCode:激活结果
+
 函数名:Function Activating(szKey as string,ByRef szErrorCode As String) As Integer (SPPC.dll控件实现) 
+
 函数名:Function Activation(szKey as string,ByRef szErrorCode As String) As Integer (WMI中的CIMV2搜索实现)
+
 函数名:Function InstallCID(InstalltionID As String, ConfirmationID As String, ByRef szResult As String) As Integer
+
 .net4.6运行库,使用说明:
 
 
