@@ -1,6 +1,8 @@
 数字激活控件, .net4.6库,带过程输出。两个函数.
 Sub DigitalActivat()
 Function GetResult(ByRef szRes As String) As Integer
+新建线程
+
 
 vb.net:
         Dim func As New DigitalDll.DigitalFunc
