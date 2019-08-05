@@ -22,7 +22,7 @@ szErrorCode:激活结果
 
 函数名:Function InstallCID(InstalltionID As String, ConfirmationID As String, ByRef szResult As String) As Integer
 
-.net4.6运行库,使用说明:
+.net4.6运行库,使用说明,放到新线程里执行:
 
 
 vb.net:
