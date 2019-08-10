@@ -1,14 +1,15 @@
-ÃÜÔ¿°²×°¼°¼¤»î¿Ø¼ş.Ò²¿ÉÓÃÓÚ²âÃÜÔ¿.×Ô¶¯ÅĞ¶ÏÏµÍ³ÀàĞÍ£¬×ÔÊÊÓ¦ÃÜÔ¿ÀàĞÍ.
-szKey:ÃÜÔ¿ÊäÈë
-szErrorCode:¼¤»î½á¹û
-º¯ÊıÃû:Function Activating(szKey as string,ByRef szErrorCode As String) As Integer (SPPC.dll¿Ø¼şÊµÏÖ) 
-º¯ÊıÃû:Function Activation(szKey as string,ByRef szErrorCode As String) As Integer (WMIÖĞµÄCIMV2ËÑË÷ÊµÏÖ)
-º¯ÊıÃû:Function InstallCID(InstalltionID As String, ConfirmationID As String, ByRef szResult As String) As Integer
-.net4.6ÔËĞĞ¿â,Ê¹ÓÃËµÃ÷:
+å¯†é’¥å®‰è£…åŠæ¿€æ´»æ§ä»¶.ä¹Ÿå¯ç”¨äºæµ‹å¯†é’¥.è‡ªåŠ¨åˆ¤æ–­ç³»ç»Ÿç±»å‹ï¼Œè‡ªé€‚åº”å¯†é’¥ç±»å‹.
+szKey:å¯†é’¥è¾“å…¥
+szErrorCode:æ¿€æ´»ç»“æœ
+å‡½æ•°å:Function Activating(szKey as string,ByRef szErrorCode As String) As Integer (SPPC.dllæ§ä»¶å®ç°) 
+å‡½æ•°å:Function Activation(szKey as string,ByRef szErrorCode As String) As Integer (WMIä¸­çš„CIMV2æœç´¢å®ç°)
+å‡½æ•°å:Function InstallCID(InstalltionID As String, ConfirmationID As String, ByRef szResult As String) As Integer
+.net4.6è¿è¡Œåº“,ä½¿ç”¨è¯´æ˜:
 
 
 vb.net:
 
+   Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
         Dim func As New Activation.Activate
         Dim szResult As String = ""
         Dim flags = func.Activating("VK7JG-NPHTM-C97JM-9MPGT-3V66T", szResult)
@@ -19,10 +20,12 @@ vb.net:
             Application.DoEvents()
         Loop
         Debug.Print(szResult)
+  End Sub
 
 
 c#:
-
+        private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
             Activation.Activate func = new Activation.Activate();
             string szResult = string.Empty;
             int flags = func.Activating("VK7JG-NPHTM-C97JM-9MPGT-3V66T", ref szResult);
@@ -31,3 +34,4 @@ c#:
               Application.DoEvents();
             } while (flags == 0);
             Console.WriteLine(szResult);
+        }
