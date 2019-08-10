@@ -5,6 +5,8 @@ Function GetResult(ByRef szRes As String) As Integer
 
 
 vb.net:
+
+     Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
         Dim func As New DigitalDll.DigitalFunc
         Dim szRes As String = ""
         Dim OldResult As String = ""
@@ -21,6 +23,7 @@ vb.net:
             End If
             Application.DoEvents()
         Loop
+      end Sub
 
 
 
