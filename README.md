@@ -8,6 +8,4 @@ V3.1 新增备份CID及激活信息 新重重建tokens 新增逐条还原激活�
 
 ![image](https://github.com/laomms/MSReceiver/blob/master/接收器.gif)   
 
-![image](https://github.com/laomms/MSReceiver/blob/master/msc.png)         
-
 ![image](https://github.com/laomms/MSReceiver/blob/master/app.jpg)
