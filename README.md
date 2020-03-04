@@ -10,6 +10,9 @@ V4.0 支持数字激活,KMS38激活(激活至2038年)及普通KMS激活(180天).
 
 V6.5 版本转换.支持Win10系列版本互转,支持Office2010-2019专业增强版零售批量互转.
 
+V7.5 增加自动升级检测及下载.  
+
+
 ![image](https://github.com/laomms/MSReceiver/blob/master/接收器.gif)   
 
 ![image](https://github.com/laomms/MSReceiver/blob/master/app.jpg)
