@@ -1,4 +1,4 @@
-# 密钥接收器
+# 密钥接收器  CN/EN Version
 
 通过websocket实现服务端远程发送密钥给客户端
 
