@@ -10,6 +10,7 @@ V6.5 版本转换(右击证书列表).支持Win10系列版本互转,支持Office
 
 V7.5 增加自动升级检测及下载.  
 
+V7.8 自动检测.net版本,低于.net4.0自动下载.net4.52.   
 
 ![image](https://github.com/laomms/MSReceiver/blob/master/接收器.gif)   
 
