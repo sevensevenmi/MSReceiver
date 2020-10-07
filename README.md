@@ -16,4 +16,6 @@ V7.9 取消本地KMS激活.
 
 ![image](https://github.com/laomms/MSReceiver/blob/master/接收器.gif)   
 
+![image](https://github.com/laomms/CoolQQ/blob/master/机器人.gif)  
+
 ![image](https://github.com/laomms/MSReceiver/blob/master/app.jpg)
